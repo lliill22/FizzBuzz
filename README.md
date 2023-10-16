@@ -12,3 +12,8 @@
     ```bash
     seq 1000000 | docker exec -i kafka /opt/kafka/bin/kafka-console-producer.sh --topic numbers --broker-list kafka:9093
     ```
+
+
+Для масштабирования приложения можно использовать Kafka Streams или Apache Flink,
+но это требует дополнительной конфигурации и архитектурных решений.
+Подходящий выбор зависит от вашего контекста и требований.
